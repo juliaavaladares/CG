@@ -59,11 +59,8 @@ function moveSphereToPosition()
         
     if(Math.abs(sphere.position.x - nextX )> speed)
     {
-      console.log("olhou");
       sphere.translateZ(speed);
-    
-    }
-    else{
+    } else{
       moveSphere = false;
     }
   }
